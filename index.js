@@ -4,7 +4,7 @@ Handlebars.registerHelper('comment_body', function(){
   } else {
     return new Handlesbars.SafeString("<strong>" + this.body + "</strong")
   }
-  }
+})
 }
 
 function loadIssues(){
