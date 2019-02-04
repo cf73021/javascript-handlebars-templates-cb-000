@@ -10,6 +10,4 @@ function loadIssue(){
     var result = template(issues[i]);
     document.getElementsByTagName("main")[0].innerHTML += result;
   }
-
-
 }
